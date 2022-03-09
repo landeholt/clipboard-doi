@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from main import doi2cb
+
+doi2cb()
+

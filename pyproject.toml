@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "copy-doi"
+version = "0.1.0"
+description = ""
+authors = ["landeholt <johnlan@kth.se>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+bibtexparser = "^1.2.0"
+pyperclip = "^1.8.2"
+clipboard = "^0.0.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
