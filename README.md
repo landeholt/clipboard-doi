@@ -2,7 +2,8 @@
 
 1. Install dependencies
 2. add `copy_doi/doi` to environment variables
-    for mac: ```zsh
+    for mac: 
+    ```zsh
         alias doi="<path-to-doi>/copy_doi/doi"  
     ```
 
